@@ -3,7 +3,7 @@ import logo from "@/images/logo.png";
 import profile from "@/images/profile.png";
 import map from "@/images/Maps.png";
 import slider from "@/images/Slider.png";
-import block from "@/images/blocks.png";
+import block from "@/images/Price Filter.png";
 import slide from "@/images/slide.png";
 import line from "@/images/line.png";
 import filter from "@/images/filter.png";
