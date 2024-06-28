@@ -1,9 +1,11 @@
-import Home from "@/app/home";
+// import Home from "@/app/home";
+import Listing from "@/app/listing";
 
 export default function Page() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Listing />
     </div>
   );
 }
