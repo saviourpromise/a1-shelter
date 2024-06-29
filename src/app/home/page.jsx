@@ -9,8 +9,8 @@ import image from "@/images/image.png";
 import elipse from "@/images/Ellipse 1.png";
 import amen from "@/images/Amenities.png";
 import naira from "@/images/Naira.png";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const home = () => {
     return (
