@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "./_components/Header/Header";
+import Footer from "./_components/Footer/Footer";
 import location from "@/images/location.png";
 import dot from "@/images/dot.png";
 import details from "@/images/Other Details.png";

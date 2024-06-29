@@ -1,4 +1,4 @@
-import Header from "./components/Header/Header";
+import Header from "../_components/Header/Header";
 
 const reservation = () => {
     return (
