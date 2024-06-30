@@ -1,21 +1,21 @@
 import Image from "next/image";
 import Header from "./_components/Header/Header";
 import Footer from "./_components/Footer/Footer";
-import location from "@/images/location.png";
-import dot from "@/images/dot.png";
-import details from "@/images/Other Details.png";
-import section from "@/images/Section 2.png";
-import breakfast from "@/images/breakfast.png";
-import bus from "@/images/bus.png";
-import park from "@/images/park.png";
-import fitness from "@/images/fitness.png";
-import room_images from "@/images/Room Images.png";
-import bed from "@/images/mdi_bed-outline.png";
-import dimensions from "@/images/dimensions.png";
-import shower from "@/images/shower-line.png";
-import tv from "@/images/fa_tv.png";
-import line_3 from "@/images/Line 3.png";
-import naira from "@/images/Naira.png";
+import location from "../images/location.png";
+import dot from "../images/dot.png";
+import details from "../images/Other Details.png";
+import section from "../images/Section 2.png";
+import breakfast from "../images/breakfast.png";
+import bus from "../images/bus.png";
+import park from "../images/park.png";
+import fitness from "../images/fitness.png";
+import room_images from "../images/Room Images.png";
+import bed from "../images/mdi_bed-outline.png";
+import dimensions from "../images/dimensions.png";
+import shower from "../images/shower-line.png";
+import tv from "../images/fa_tv.png";
+import line_3 from "../images/Line 3.png";
+import naira from "../images/Naira.png";
 
 const listing = () => {
   return (

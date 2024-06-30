@@ -1,9 +1,9 @@
 import Image from "next/image";
-import facebook from "@/images/facebook.png";
-import instagram from "@/images/instagram.png";
-import twitter from "@/images/twitter.png";
-import linkdln from "@/images/linkedin.png";
-import product_logo from "@/images/Product Logo.png";
+import facebook from "../../../images/facebook.png";
+import instagram from "../../../images/instagram.png";
+import twitter from "../../../images/twitter.png";
+import linkdln from "../../../images/linkedin.png";
+import product_logo from "../../../images/Product Logo.png";
 
 const Footer = () => {
   return (

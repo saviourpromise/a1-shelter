@@ -1,14 +1,14 @@
 import Image from "next/image";
-import map from "@/images/Maps.png";
-import slider from "@/images/Slider.png";
-import block from "@/images/Price Filter.png";
-import slide from "@/images/slide.png";
-import line from "@/images/line.png";
-import filter from "@/images/filter.png";
-import image from "@/images/image.png";
-import elipse from "@/images/Ellipse 1.png";
-import amen from "@/images/Amenities.png";
-import naira from "@/images/Naira.png";
+import map from "../../images/Maps.png";
+import slider from "../../images/Slider.png";
+import block from "../../images/Price Filter.png";
+import slide from "../../images/slide.png";
+import line from "../../images/line.png";
+import filter from "../../images/filter.png";
+import image from "../../images/image.png";
+import elipse from "../../images/Ellipse 1.png";
+import amen from "../../images/Amenities.png";
+import naira from "../../images/Naira.png";
 import Header from "../_components/Header/Header";
 import Footer from "../_components/Footer/Footer";
 
