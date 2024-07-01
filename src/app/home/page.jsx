@@ -138,7 +138,7 @@ const home = () => {
         </div>
         </div>
 
-        {Array(8).fill(0).map(() =>
+        {Array(8).fill(0).map((_, index) =>
             <div className="flex gap-6 bg-white pl-7 pt-7 pb-7 rounded-md" key={index}>
             <div>
             <Image src={image}/>

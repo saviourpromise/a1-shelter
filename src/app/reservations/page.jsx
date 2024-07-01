@@ -223,14 +223,14 @@ const reservation = () => {
     <div className="flex flex-col gap-6 ml-32 bg-white mt-4 pr-4 pl-3 pt-4 pb-4 rounded-md">
     <p className="text-sm font-base text-[#A6A6A6] text-center">By submitting this booking, I acknowledge that I have read and agree to A1Shelter's <span className="text-[#CDCDCD]">Terms <br /> of Use</span> and <span className="text-[#CDCDCD]">Privacy Statement</span></p>
     <div className="justify-center flex items-center">
-    <button onClick={() => router.push('/home')} className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white w-[25rem] rounded-md">
+    <button onClick={() => router.push('/myReservations')} className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white w-[25rem] rounded-md">
               Continue
     </button>
     </div>
     </div>
     </div>
     
-    <div className="flex flex-col gap-4 -mt-[7rem]">
+    <div className="flex flex-col gap-4 w-[400px] -mt-[7rem]">
     <div className="flex flex-col gap-3 bg-[#F0F8FF] pl-4 pt-4 pb-4 rounded-md shadow-md">
     <div className="flex gap-[10.5rem]">
     <p className="text-lg font-extrabold">Price</p>

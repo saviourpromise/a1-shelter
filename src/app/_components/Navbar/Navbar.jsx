@@ -14,7 +14,7 @@ const Navbar = ({title}) => {
 
         <div className="flex flex-col gap-6 bg-white pt-5 pb-5 rounded-md">
         <p onClick={() => router.push('/myProfile')} className={`${(title == 'myprofile') ? 'border-l-[#E89766] bg-[#F0F8FF]':  'border-l-white bg-transaprent'}  text-base font-semibold border-l-4 pt-1 pb-1 pl-4  hover:bg-[#F0F8FF] hover:border-l-[#E89766] cursor-pointer`}>My Profile</p>
-        <p onClick={() => router.push('/myReservations')} className={`${(title == 'reservations') ? 'border-l-[#E89766] bg-[#F0F8FF]':  'border-l-white bg-transaprent'}  text-base font-semibold border-l-4 pt-1 pb-1 pl-4  hover:bg-[#F0F8FF] hover:border-l-[#E89766] cursor-pointer`}>My Reservations</p>
+        <p onClick={() => router.push('/myReservations')} className={`${(title == 'myreservations') ? 'border-l-[#E89766] bg-[#F0F8FF]':  'border-l-white bg-transaprent'}  text-base font-semibold border-l-4 pt-1 pb-1 pl-4  hover:bg-[#F0F8FF] hover:border-l-[#E89766] cursor-pointer`}>My Reservations</p>
         <p onClick={() => router.push('/myVisit')} className={`${(title == 'myvisit') ? 'border-l-[#E89766] bg-[#F0F8FF]':  'border-l-white bg-transaprent'}  text-base font-semibold border-l-4 pt-1 pb-1 pl-4  hover:bg-[#F0F8FF] hover:border-l-[#E89766] cursor-pointer`}>My Visits</p>
         <p className="text-sm font-semibold text-[#FF0000] mt-16 pl-5">Logout</p>
         </div>

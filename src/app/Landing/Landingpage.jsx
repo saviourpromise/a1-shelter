@@ -18,7 +18,13 @@ export default function LandingPage() {
       <div className="w-full h-full bg-gradient-to-b from-[#000000CC]-100 to-[#0C6390CC]-100 text-center flex items-center justify-center">
           <div className="flex flex-col gap-8 text-[42px] text-white">
               <h1 className={kalam.className}>Settle Your Comfort, So You Go Know Book Well.</h1>
-              <input type="text" placeholder="Search Accomodation" className="w-full h-[60px] bg-white rounded-lg text-[12px] text-start px-8 mx-auto"/>
+              <input 
+                onKeyDown={(e) => {
+                if (e.key === "Enter")
+                    router.push('/home');
+                }}
+                type="text" 
+                placeholder="Search Accomodation and then press enter" className="w-full h-[60px] bg-white rounded-lg text-[12px] text-black text-start px-8 mx-auto"/>
           </div>
       </div>
     </div>

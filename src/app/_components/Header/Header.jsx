@@ -11,7 +11,7 @@ const Header = () => {
       <header className="bg-[#0C6390] pt-2 pb-2">
         <div className="flex gap-20 ml-[8.5rem] items-center">
           <div>
-          <Image src={house} className="w-10 h-10" width={48} height={48}/>
+          <Image onClipck={() => router.push('/')}  src={house} className="w-10 h-10 cursor-pointer" width={48} height={48}/>
           </div>
           <input
             type="search"
