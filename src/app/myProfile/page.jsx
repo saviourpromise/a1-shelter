@@ -11,7 +11,7 @@ const myProfile = () => {
             <Header />
 
             <div className="flex gap-6 ml-44 mt-8">
-            <Navbar />
+            <Navbar title={'myprofile'}/>
 
             <div className="flex flex-col gap-4 mb-20">
             <p className="text-xl font-bold">My Profile</p>

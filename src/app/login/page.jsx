@@ -1,8 +1,10 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
+   const router = useRouter();
      return(
             <div className="grid grid-cols-2 mx-auto h-screen items-center p-10">
                <div className="h-[400px] w-[400px] relative mx-auto">
@@ -25,7 +27,7 @@ export default function Login() {
                     <p className="text-[12px] -mt-2 text-black">Forgot Password?</p>
                   </div>
                   
-                  <button className="bg-[#E89766] text-white w-full h-10 rounded-[4px]">Login</button>
+                  <button onClick={() => router.push('/home')} className="bg-[#E89766] text-white w-full h-10 rounded-[4px]">Login</button>
 
                   <p className="text-[12px] text-center my-4 text-gray-400">Already have an account? <a href="/signup" className="text-[#0C6390] text-bold">Sign in</a></p>
                </div>

@@ -1,23 +1,26 @@
+'use client'
 import Image from "next/image";
-import Header from "./_components/Header/Header";
-import Footer from "./_components/Footer/Footer";
-import location from "../images/location.png";
-import dot from "../images/dot.png";
-import details from "../images/Other Details.png";
-import section from "../images/Section 2.png";
-import breakfast from "../images/breakfast.png";
-import bus from "../images/bus.png";
-import park from "../images/park.png";
-import fitness from "../images/fitness.png";
-import room_images from "../images/Room Images.png";
-import bed from "../images/mdi_bed-outline.png";
-import dimensions from "../images/dimensions.png";
-import shower from "../images/shower-line.png";
-import tv from "../images/fa_tv.png";
-import line_3 from "../images/Line 3.png";
-import naira from "../images/Naira.png";
+import Header from "../_components/Header/Header";
+import Footer from "../_components/Footer/Footer";
+import location from "../../images/location.png";
+import dot from "../../images/dot.png";
+import details from "../../images/Other Details.png";
+import section from "../../images/Section 2.png";
+import breakfast from "../../images/breakfast.png";
+import bus from "../../images/bus.png";
+import park from "../../images/park.png";
+import fitness from "../../images/fitness.png";
+import room_images from "../../images/Room Images.png";
+import bed from "../../images/mdi_bed-outline.png";
+import dimensions from "../../images/dimensions.png";
+import shower from "../../images/shower-line.png";
+import tv from "../../images/fa_tv.png";
+import line_3 from "../../images/Line 3.png";
+import naira from "../../images/Naira.png";
+import { useRouter } from "next/navigation";
 
 const listing = () => {
+  const router = useRouter();
   return (
     <div className="bg-[#F5F7FA]">
       <Header />
@@ -45,12 +48,12 @@ const listing = () => {
 
         <div className="flex gap-2 mt-6">
           <div>
-            <button className="text-xs font-semibold border-[#E89766] border p-3 shadow-md">
+            <button onClick={() => router.push('/reservations')} className="text-xs font-semibold border-[#E89766] border p-3 shadow-md">
               Schedule Visit
             </button>
           </div>
           <div>
-            <button className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white">
+            <button onClick={() => router.push('/reservations')} className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white">
               Select Your Room
             </button>
           </div>
@@ -145,12 +148,12 @@ const listing = () => {
 
           <div className="flex gap-2 mt-6">
             <div>
-              <button className="text-xs font-semibold border-[#E89766] border p-3 shadow-md pl-5 pr-5">
+              <button onClick={() => router.push('/reservations')} className="text-xs font-semibold border-[#E89766] border p-3 shadow-md pl-5 pr-5">
                 Schedule Visit
               </button>
             </div>
             <div>
-              <button className="text-xs font-semibold border-[#E89766] pl-5 pr-5 bg-[#E89766] border p-3 shadow-md text-white">
+              <button onClick={() => router.push('/reservations')} className="text-xs font-semibold border-[#E89766] pl-5 pr-5 bg-[#E89766] border p-3 shadow-md text-white">
                 Select Your Room
               </button>
             </div>
@@ -210,7 +213,7 @@ const listing = () => {
                 </span>{" "}
                 per semester
               </p>
-              <button className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
+              <button onClick={() => router.push('/reservations')} className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
                 Reserve
               </button>
             </div>
@@ -266,7 +269,7 @@ const listing = () => {
                 </span>{" "}
                 per semester
               </p>
-              <button className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
+              <button onClick={() => router.push('/reservations')} className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
                 Reserve
               </button>
             </div>
@@ -322,7 +325,7 @@ const listing = () => {
                 </span>{" "}
                 per semester
               </p>
-              <button className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
+              <button onClick={() => router.push('/reservations')} className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
                 Reserve
               </button>
             </div>
@@ -378,7 +381,7 @@ const listing = () => {
                 </span>{" "}
                 per semester
               </p>
-              <button className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
+              <button onClick={() => router.push('/reservations')} className="text-xs bg-[#E89766] text-white w-[9.5rem] h-[2rem] rounded-md shadow-md ml-9 mt-[14px]">
                 Reserve
               </button>
             </div>

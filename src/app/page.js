@@ -5,7 +5,7 @@
 // import Login from "../app/login/login";
 // import MyProfile from "../app/myProfile/myProfile";
 // import MyVisit from "../app/myVisit/myVisit";
-import Landing_page from "../app/Landing/Landingpage";
+import LandingPage from "../app/Landing/Landingpage";
 
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
       {/* <Signup /> */}
       {/* <Login /> */}
       {/* <MyProfile /> */}
-      <Landing_page />
+      <LandingPage />
     </div>
   );
 }

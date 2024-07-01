@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import one from "../../images/Number.png";
 import two from "../../images/Number 2.png";
@@ -14,8 +15,10 @@ import wifi from "../../images/wifi.png";
 import naira from "../../images/Naira.png";
 import dash from "../../images/dashed.png";
 import Footer from "../_components/Footer/Footer";
+import { useRouter } from "next/navigation";
 
 const reservation = () => {
+    const router = useRouter();
   return (
     <div className="bg-[#F5F7FA]">
       <header className="bg-[#0C6390]">
@@ -67,7 +70,7 @@ const reservation = () => {
               </p>
             </div>
 
-            <div className="mt-[3px]">
+            <div className="mt-[3px] cursor-pointer" onClick={() => router.push('/myProfile')}>
               <Image src={profile} />
             </div>
           </div>
@@ -220,7 +223,7 @@ const reservation = () => {
     <div className="flex flex-col gap-6 ml-32 bg-white mt-4 pr-4 pl-3 pt-4 pb-4 rounded-md">
     <p className="text-sm font-base text-[#A6A6A6] text-center">By submitting this booking, I acknowledge that I have read and agree to A1Shelter's <span className="text-[#CDCDCD]">Terms <br /> of Use</span> and <span className="text-[#CDCDCD]">Privacy Statement</span></p>
     <div className="justify-center flex items-center">
-    <button className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white w-[25rem] rounded-md">
+    <button onClick={() => router.push('/home')} className="text-xs font-semibold border-[#E89766] bg-[#E89766] border p-3 shadow-md text-white w-[25rem] rounded-md">
               Continue
     </button>
     </div>
